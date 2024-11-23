@@ -31,6 +31,10 @@ public class Empresa implements Serializable {
 
     private String cnpj;
 
+    @Enumerated(EnumType.STRING)
+    private TipoEmpresa tipoEmpresa;
+
+    @Column(name = "data_fundacao")
     @Temporal(TemporalType.DATE)
     private String dataFundacao;
 
