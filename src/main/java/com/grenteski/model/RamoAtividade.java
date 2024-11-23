@@ -1,4 +1,4 @@
-package com.grenteski;
+package com.grenteski.model;
 
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
